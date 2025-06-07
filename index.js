@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 async function callGenerateAPI(inputText) {
-    const response = await fetch('http://localhost:5000/generate', {
+    const response = await fetch('https://sanju-chatbot.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

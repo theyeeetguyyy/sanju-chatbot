@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 def generate(prompt):
-    client = genai.Client(api_key="AIzaSyDDOrqVUUZk_Q6HzfY3seO6fmerI5Wpbls")
+    client = genai.Client(api_key="GOOGLE_API_KEY")
 
     model = "gemini-2.0-flash"
     contents = [
